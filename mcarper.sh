@@ -2405,7 +2405,7 @@ if [[ "${DAEMON_BIN}" != "apollond" ]] && \
   [[ "${DAEMON_BIN}" != "smkd" ]] && \
   [[ "${DAEMON_BIN}" != "specialcoind" ]] && \
   [[ "${DAEMON_BIN}" != "swippd" ]] && \
-  [[ "${DAEMON_BIN}" != "syndicate" ]] && \
+  [[ "${DAEMON_BIN}" != "syndicated" ]] && \
   [[ "${DAEMON_BIN}" != "venoxd" ]]
 then
   UNLOCKED=0
