@@ -16,7 +16,7 @@ DEFAULT_PORT=25992
 # Conf File
 CONF='syndicate.conf'
 # Display Name
-DAEMON_NAME='Syndicate'
+DAEMON_NAME='syndicate'
 # Github user and project.
 GITHUB_REPO='SyndicateLtd/SyndicateQt'
 # Binary base name.
