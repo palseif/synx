@@ -6,7 +6,7 @@
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
 # Run this file
-# bash -i <(wget -4qO- -o- https://raw.githubusercontent.com/palseif/synx/master/venoxd.sh) ; source ~/.bashrc
+# bash -i <(wget -4qO- -o- https://raw.githubusercontent.com/palseif/synx/master/venoxd.sh?token=ABE_9Xfnx00J5Oy4i_59z1IZmv7GuVUoks5ctbO3wA%3D%3D) ; source ~/.bashrc
 # bash -ic "$(wget -4qO- -o- goo.gl/ncErX1)" ; source ~/.bashrc
 
 # Directory
@@ -121,7 +121,7 @@ while [[ ! -f ~/___mn.sh ]] || [[ $( grep -Fxc "# End of masternode setup script
 do
   rm -f ~/___mn.sh
   echo "Downloading Masternode Setup Script."
-  wget -4qo- https://raw.githubusercontent.com/palseif/synx/master/venoxd.sh -O ~/___mn.sh
+  wget -4qo- goo.gl/uQw9tz -O ~/___mn.sh
   COUNTER=$((COUNTER+1))
   if [[ "${COUNTER}" -gt 3 ]]
   then
